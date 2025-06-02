@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en"> 
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.js"></script><!--p5js library-->
+        <script src="/scripts/canvas.js"></script><!--petals bg-->
+        <script src="/scripts/general.js"></script><!--general script-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/main.css"/> <!--main stylesheet-->
+        <link rel="stylesheet" href="/styles/secrets.css"/><!--stylesheet for secrets-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--W3CSS library-->
+        <title>Nightshade Cafe</title>
+        <script>
+            window.onload = ( event ) => { 
+                setTimeout(function(){
+                    let d = document.getElementById('dark')
+                    d.classList.add('darka')
+                    setTimeout(function(){
+                        d.parentElement.removeChild(d)
+                    },1000)
+                },1000)  
+            }
+        </script>
+    </head>
+    <body>
+        <div id="dark"></div>
+        <div id="petal"></div><!--Petals Background-->
+        <div class="w3-display-container con1"><!--Header Container-->
+            <img src="/assets/text/changelog.png" class="logo"><!--Header Text-->
+        </div>
+        <div class="con"><!--Update 1 Changelog-->
+            <div class="sext center2" size="0.7">~Update 1~</div>
+            <div class="sext center2" size="0.55">June 2 2025</div>
+            <div class="sext center2" size="0.4">-Added Homepage</div>
+            <div class="sext center2" size="0.4">-Added Changelog</div>
+            <div class="sext center2" size="0.4">-Added Footer</div>
+            <div class="sext center2" size="0.4">-Added Petals Background</div>
+            <div class="sext center2" size="0.4">-Added Shifting Checkered Background</div>
+            <div class="sext center2" size="0.4">-Secret 1</div>
+            <div class="sext center2" size="0.4">-Auto Scaling Containers</div>
+            <div class="sext center2" size="0.4">-Added 226 splash texts</div>
+            <div class="sext center2" size="0.4">-Added About Us</div>
+            <div class="sext center2" size="0.4">-Added About Us Links</div>
+            <div class="sext center2" size="0.4">-Added Sandra About Me</div>
+        </div>
+        <div class="w3-display-container con3 footer"><!--Footer Container-->
+            <div class="w3-display-container">
+                <img src="/assets/text/logo.png" id="logofoot"><!--Nightshade.cafe logo image-->
+            </div>
+            <div class="w3-display-container"> <!--Made By Cecelia-->
+                <img src="/assets/text/madeby.png" id="madeby">
+                <img src="/assets/text/ceceliasig.png" id="cecesig">
+            </div>
+            <a href="/index.html">  <!--Home Button-->
+                <div class="w3-display-container">
+                    <img src="/assets/text/home.png" id="homefoot" onmouseover="homehover(this);" onmouseout="homeunhover(this);">
+                </div>
+            </a>
+            <div> <!--Powered by Weed-->
+                <div class="w3-display-container">
+                    <img src="/assets/text/poweredby.png" id="poweredby">
+                </div>
+                <div class="w3-display-container">
+                    <img src="/assets/text/weed.png" id="weedfoot">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

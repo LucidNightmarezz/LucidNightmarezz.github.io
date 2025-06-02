@@ -1,0 +1,27 @@
+body{
+    margin:0;
+    font-weight: 400;
+    font-style: normal;
+    height: 170vh;
+}
+#body2{
+    position: absolute;
+    width:100vw;
+    height:170vh;
+    background-image: url("/about/autumn/bg.png");
+    background-size: 10vw 10vw;
+    -webkit-filter: opacity(0.5) blur(0vh);
+    -moz-filter: opacity(0.5) blur(0vh);
+    -o-filter: opacity(0.5) blur(0vh);
+    -ms-filter: opacity(0.5) blur(0vh);
+    filter:opacity(0.7) blur(2px);
+    margin:0;
+    z-index: -1;
+}
+#body3{
+    width:100vw;
+    height:170vh;
+    background-color:black;
+    position:absolute;
+    z-index: -2;
+}

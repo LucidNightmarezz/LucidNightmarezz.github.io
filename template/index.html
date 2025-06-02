@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <script src="https://cdn.jsdelivr.net/npm/p5@1.9.4/lib/p5.js"></script><!--p5js library-->
+        <script src="/scripts/splash.js"></script><!--splashes-->
+        <script src="/scripts/canvas.js"></script><!--petals bg-->
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="/styles/main.css"/> <!--main stylesheet-->
+        <link rel="stylesheet" href="/styles/secrets.css"/><!--stylesheet for secrets-->
+        <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--W3CSS library-->
+        <title>Nightshade Cafe - Tab Name</title>
+        <script>
+            window.onload = ( event ) => { 
+                setTimeout(function(){
+                    let d = document.getElementById('dark')
+                    d.classList.add('darka')
+                    setTimeout(function(){
+                        d.parentElement.removeChild(d)
+                    },2000)
+                },1000)  
+            }
+        </script>
+    </head>
+    <body>
+        <div id="dark"></div>
+        <div id="petal"></div> <!--Petals Background-->
+        <div class="w3-display-container con1"> <!--Header Container-->
+            <img src="/assets/text/sample_text.png" class="logo"> <!--Header Text-->
+        </div>
+        <div class="w3-display-container con3 footer"><!--Footer Container-->
+            <div class="w3-display-container">
+                <img src="/assets/text/logo.png" id="logofoot"><!--Nightshade.cafe logo image-->
+            </div>
+            <div class="w3-display-container"> <!--Made By Cecelia-->
+                <img src="/assets/text/madeby.png" id="madeby">
+                <img src="/assets/text/ceceliasig.png" id="cecesig">
+            </div>
+            <a href="/index.html">  <!--Home Button-->
+                <div class="w3-display-container">
+                    <img src="/assets/text/home.png" id="homefoot">
+                </div>
+            </a>
+            <div> <!--Powered by Weed-->
+                <div class="w3-display-container">
+                    <img src="/assets/text/poweredby.png" id="poweredby">
+                </div>
+                <div class="w3-display-container">
+                    <img src="/assets/text/weed.png" id="weedfoot">
+                </div>
+            </div>
+        </div>
+    </body>
+</html>

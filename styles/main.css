@@ -1,0 +1,465 @@
+/*Center Text*/
+.center{
+    text-align: center;
+}
+/*Center Div*/
+.center2{
+    display: flex;
+    justify-content: center;
+}
+.center3{
+    position: relative;
+    transform:translate(-50%,0);
+    left:50%;
+}
+.centerabout{
+    position:relative;
+    transform:translate(-48.8%,0);
+    left:50%;
+}
+.centerabout2{
+    position:relative;
+    transform:translate(-48%,0);
+    left:50%;
+}
+/*Auto Container*/
+.con{
+    position: relative;
+    margin: 0 auto;
+    padding: 3%;
+    z-index: 2;
+}
+.co{
+    padding: 5%
+}
+/*Auto Container 2*/
+.conn{
+    position:absolute;
+    top: 0%;
+    left: 0%;
+    z-index: -10;
+}
+/*Header Container*/
+.con1{
+    background-image: url("../assets/containers/con1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width: 100vw;
+    height: 45vw;
+    position: relative;
+}
+/*Button Container*/
+.con2{
+    background-image: url("../assets/buttons/button1.png");
+    display: inline-block;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width:32vw;
+    height: 18vw;
+    max-height: 20%;
+}
+/*Footer Container*/
+.con3{
+    background-image: url("../assets/containers/con2.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;  
+    width: 100vw;
+    height: 35vw;
+    padding: 7vw 7vw 7vw 7vw;
+}
+.con4{
+    display: inline-block;
+}
+/*Button 1*/
+.but1 {
+    background-image: url("../assets/buttons/button1.png") !important;
+}
+.but1:hover{
+    background-image: url("../assets/buttons/buttons1.png") !important;
+    cursor:grab;
+}
+/*Button 2*/
+.but2 {
+    background-image: url("../assets/buttons/button2.png") !important;
+}
+.but2:hover{
+    background-image: url("../assets/buttons/buttons2.png") !important;
+    cursor:grab;
+}
+/*Button 3*/
+.but3 {
+    background-image: url("../assets/buttons/button3.png") !important;
+}
+.but3:hover{
+    background-image: url("../assets/buttons/buttons3.png") !important;
+    cursor:grab;
+}
+/*Button 4*/
+.but4 {
+    background-image: url("../assets/buttons/button4.png") !important;
+}
+.but4:hover{
+    background-image: url("../assets/buttons/buttons4.png") !important;
+    cursor:grab;
+}
+/*Button Image*/
+.butimage{
+    margin-right: 2vw;
+    width:20vw;
+    height: auto;
+}
+/*Header Logo Text*/
+.logo{
+    width:60vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -35%);
+    padding: 10px;
+}
+.cececon{
+    position: relative;
+    top:-4vh;
+}
+/*Cecelia Footer Signature*/
+#cecesig{
+    width:20vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-125%, 220%);
+    padding: 10px;
+}
+/*Powered By Footer Text*/
+#poweredby{
+    width:24vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-10%, 220%);
+    padding: 10px;
+}
+/*Weed Footer Text*/
+#weedfoot{
+    width:24vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(85%, 240%);
+    padding: 10px;
+}
+/*Made By Footer Text*/
+#madeby{
+    width:20vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-220%, 220%);
+    padding: 10px;
+}
+/*Footer Nightshade.cafe Logo Image*/
+#logofoot{
+    width:70vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -40%);
+    padding: 10px;
+}
+/*Home Button Footer*/
+#homefoot{
+    width:20vw;
+    height: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 150%);
+    padding: 10px;
+}
+/*Body of the HTML Document*/
+body{
+    background-image: url("../assets/bgs/bg.gif");
+    background-size: 10vw 10vw;
+    width: 100%;
+    height: 100%;
+}
+
+/*Petals canvas*/
+#petal{
+    position:fixed;
+}
+/*Sprite Text z layer*/
+.sext2{
+    z-index: 2;
+}
+/*About Us Sprite Text*/
+.sext3{
+    display: inline-block;
+    position: absolute;
+    left: 18vw;    
+}
+.abouttext{
+    padding: 5%;
+    top:-10vh;
+    margin: 0;
+}
+.sext4{
+    display: inline-block;  
+    position: relative;
+    right:1vw;
+}
+/*Splash Text*/
+#splash{
+    position: absolute;
+
+    top:75%;
+    left:50%;
+    /*transform: translate(26vw,-25vh);*/
+}
+/*Cecelia About Us Image*/
+#ceceimg{
+    width: 15vw;
+    position: absolute;
+    left:12%;
+    top:8%;
+}
+.about1{
+    position: relative;
+    display: inline-block;
+    top:-11vh;
+}
+.likes{
+    position: relative;
+    display: inline-block;
+    top:-13vh;
+}
+.gamelikes{
+    position: relative;
+    display: inline-block;
+    top:-12vh;
+}
+.dislikes{
+    position: relative;
+    display: inline-block;
+    top:-13vh;
+}
+.mylinks{
+    width: 5vw;
+    
+}
+.links{
+    margin-bottom:5vw;
+    padding-left: 5vw;
+    padding-right: 5vw;
+}
+.emojialter{
+    display: inline-block;
+    position:relative;
+    font-size: 120%;
+    top:-0.5vh;
+    padding: 0;
+    margin: 0;
+}
+.alters{
+    position: relative;
+    display: inline-block;
+    top:-13.5vh;
+}
+/*Footer Container*/
+.footer{
+margin-top: 0vh;
+position: absolute;
+bottom: 0vh;
+}
+.footer2{
+    margin-top: 10vh;
+    position: absolute;
+    bottom: 0vh;
+}
+/*Tablet*/
+@media (max-width: 1050px) {
+    /*Button Image*/
+    .butimage{
+        margin-right: 2vw;
+        width:20vw;
+        height: auto;
+    }
+    /*Button Container*/
+    .con2{
+        display: inline-block;
+        justify-content: center;
+        background-image: url("../assets/buttons/button1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;  
+        width:32vw;
+        margin-top: 0vh;
+        height: 40vw;
+        max-height: 20%; 
+    }
+    /*Home Button Footer*/
+    #homefoot{
+        width:20vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 130%);
+        padding: 10px;
+    }
+    /*Cecelia Footer Signature*/
+    #cecesig{
+        width:20vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-125%, 200%);
+        padding: 10px;
+    }
+    /*Powered By Footer Text*/
+    #poweredby{
+        width:24vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%, 200%);
+        padding: 10px;
+    }
+    /*Weed Footer Text*/
+    #weedfoot{
+        width:24vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(85%, 220%);
+        padding: 10px;
+    }
+    /*Made By Footer Text*/
+    #madeby{
+        width:20vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-220%, 200%);
+        padding: 10px;
+    }
+    /*Footer Nightshade.cafe Logo Image*/
+    #logofoot{
+        width:70vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        padding: 10px;
+    }
+}
+/*Phone*/
+@media (max-width: 600px) {
+    /*Button Image*/
+    .butimage{
+        margin-right: 2vw;
+        width:40vw;
+        height: auto;
+    }
+    /*Button Container*/
+    .con2{
+        display: inline-block;
+        justify-content: center;
+        background-image: url("../assets/buttons/button1.png");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: contain;  
+        width:32vw;
+        margin-top: 0vh;
+        height: 40vw;
+        max-height: 20%;
+    }
+    /*Home Button Footer*/
+    #homefoot{
+        width:20vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, 100%);
+        padding: 10px;
+    }
+    /*Cecelia Footer Signature*/
+    #cecesig{
+        width:20vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-125%, 180%);
+        padding: 10px;
+    }
+    /*Powered By Footer Text*/
+    #poweredby{
+        width:24vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-10%, 180%);
+        padding: 10px;
+    }
+    /*Weed Footer Text*/
+    #weedfoot{
+        width:24vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(85%, 200%);
+        padding: 10px;
+    }
+    /*Made By Footer Text*/
+    #madeby{
+        width:20vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-220%, 180%);
+        padding: 10px;
+    }
+    /*Footer Nightshade.cafe Logo Image*/
+    #logofoot{
+        width:70vw;
+        height: auto;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -40%);
+        padding: 10px;
+    }
+}
+@keyframes fadeout {
+    0%   {opacity: 1;}
+    100% {opacity: 0;}
+}
+#dark{
+    width:100%;
+    height:200%;
+    background-color:black;
+    position:fixed;
+    z-index: 9999;
+}
+.darka {
+    animation: fadeout 1.0s forwards ease-out;
+}
