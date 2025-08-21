@@ -143,10 +143,10 @@ function makeCon( Main3, e, w, h ) { //make container
     for ( let i = ( 150 / 1340 ) * h; i < h - ( 150 / 1340 ) * h; i += ( 150 / 1340 ) * h ) { //loop through middle container height increments
       Main3.push(); //create new drawing
       Main3.translate( 0, i ); //move container part
-      Main3.image( m, 0, 0, w, ( 150 / 1340 ) * h ); //draw container part
+      Main3.image( m, 0, 0, w, ( 150 / 1340 ) * h +1); //draw container part
       Main3.pop(); //end drawing
     }
-    Main3.image( t, 0, 0, w, ( 150 / 1340 ) * h ); //draw top container part
+    Main3.image( t, 0, 0, w, ( 150 / 1340 ) * h+1 ); //draw top container part
     Main3.image( b, 0, h - ( 150 / 1340 ) * h, w, ( 150 / 1340 ) * h ); //draw bottom container part
    }
 }
