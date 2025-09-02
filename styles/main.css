@@ -137,27 +137,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-125%, 220%);
-    padding: 10px;
-}
-/*Powered By Footer Text*/
-#poweredby{
-    width:24vw;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-10%, 220%);
-    padding: 10px;
-}
-/*Weed Footer Text*/
-#weedfoot{
-    width:24vw;
-    height: auto;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(85%, 240%);
+    transform: translate(0%, 220%);
     padding: 10px;
 }
 /*Made By Footer Text*/
@@ -167,7 +147,7 @@
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-220%, 220%);
+    transform: translate(-100%, 220%);
     padding: 10px;
 }
 /*Footer Nightshade.cafe Logo Image*/
@@ -258,7 +238,7 @@ body{
     top:-13vh;
 }
 .mylinks{
-    width: 5vw;
+    width: 10vw;
     
 }
 .links{
@@ -271,6 +251,33 @@ body{
     position:relative;
     font-size: 250%;
     top:-0.5vh;
+    padding: 0;
+    margin: 0;
+}
+.emojialterAlter{
+    display: inline-block;
+    position:relative;
+    font-size: 300%;
+    top:8vh;
+    left:6vw;
+    padding: 0;
+    margin: 0;
+}
+.emojialterAlter2{
+    display: inline-block;
+    position:relative;
+    font-size: 300%;
+    top:-10vh;
+    right:-92vw;
+    padding: 0;
+    margin: 0;
+}
+.emojialterAlter3{
+    display: inline-block;
+    position:relative;
+    font-size: 300%;
+    top:-9vh;
+    right:-65vw;
     padding: 0;
     margin: 0;
 }
@@ -335,26 +342,6 @@ bottom: 0vh;
         transform: translate(-125%, 200%);
         padding: 10px;
     }
-    /*Powered By Footer Text*/
-    #poweredby{
-        width:24vw;
-        height: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-10%, 200%);
-        padding: 10px;
-    }
-    /*Weed Footer Text*/
-    #weedfoot{
-        width:24vw;
-        height: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(85%, 220%);
-        padding: 10px;
-    }
     /*Made By Footer Text*/
     #madeby{
         width:20vw;
@@ -415,26 +402,6 @@ bottom: 0vh;
         top: 50%;
         left: 50%;
         transform: translate(-125%, 180%);
-        padding: 10px;
-    }
-    /*Powered By Footer Text*/
-    #poweredby{
-        width:24vw;
-        height: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(-10%, 180%);
-        padding: 10px;
-    }
-    /*Weed Footer Text*/
-    #weedfoot{
-        width:24vw;
-        height: auto;
-        position: absolute;
-        top: 50%;
-        left: 50%;
-        transform: translate(85%, 200%);
         padding: 10px;
     }
     /*Made By Footer Text*/

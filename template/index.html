@@ -10,15 +10,15 @@
         <link rel="stylesheet" href="/styles/secrets.css"/><!--stylesheet for secrets-->
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css"><!--W3CSS library-->
         <title>Nightshade Cafe - Tab Name</title>
-        <script>
+       <script>
             window.onload = ( event ) => { 
                 setTimeout(function(){
                     let d = document.getElementById('dark')
                     d.classList.add('darka')
                     setTimeout(function(){
                         d.parentElement.removeChild(d)
-                    },2000)
-                },1000)  
+                    },1000)
+                },300)  
             }
         </script>
     </head>
@@ -41,14 +41,6 @@
                     <img src="/assets/text/home.png" id="homefoot">
                 </div>
             </a>
-            <div> <!--Powered by Weed-->
-                <div class="w3-display-container">
-                    <img src="/assets/text/poweredby.png" id="poweredby">
-                </div>
-                <div class="w3-display-container">
-                    <img src="/assets/text/weed.png" id="weedfoot">
-                </div>
-            </div>
         </div>
     </body>
 </html>

@@ -7,17 +7,15 @@
         <script src="/scripts/general.js"></script><!--general script-->
         <script src="/scripts/secrets.js"></script><!--secrets script-->
         <meta charset="UTF-8">
-        <script>
+    <script>
             window.onload = ( event ) => { 
-                LoadFile()
-                splash()
                 setTimeout(function(){
                     let d = document.getElementById('dark')
                     d.classList.add('darka')
                     setTimeout(function(){
                         d.parentElement.removeChild(d)
-                    },2000)
-                },1000)  
+                    },1000)
+                },300)  
             }
         </script>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -65,14 +63,6 @@
                     <img src="/assets/text/home.png" id="homefoot" onmouseover="homehover(this);" onmouseout="homeunhover(this);">
                 </div>
             </a>
-            <div> <!--Powered by Weed-->
-                <div class="w3-display-container">
-                    <img src="/assets/text/poweredby.png" id="poweredby">
-                </div>
-                <div class="w3-display-container">
-                    <img src="/assets/text/weed.png" id="weedfoot">
-                </div>
-            </div>
         </div>
         <!--<div class="sext" size="1.0">HELL!</div>-->
     </body>

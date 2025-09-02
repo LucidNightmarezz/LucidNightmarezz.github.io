@@ -17,7 +17,7 @@ function preload() {
 function petal( Main2 ) { //petal canvas
   const petalSize = 30; //sized  of petals in pixels
   let petals = []; //where petal objects are stored
-  const petalAmount = 50; //amount of petals
+  const petalAmount = 30; //amount of petals
   const ww = Main2.windowWidth; //window width
   const wh = Main2.windowHeight; //window height
   const newPetal = () => { //create a new petal
