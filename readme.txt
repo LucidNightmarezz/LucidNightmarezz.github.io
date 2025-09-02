@@ -1,3 +1,12 @@
+**Info**
+I do **NOT** use AI to make any of my content (Art, Code, Music, more) WHATSOEVER!!!!! 
+The only thing I can't control is if the creator of dependencies I use used AI to help.
+
+If you wanna clone and edit the code and tinker with it.. Go ahead! I wouldnt really 
+recommend it at all because in the current state (and most likely future state) of the
+website has horrible code, I honestly think it's some of my worst and I'm not proud of 
+it at all.
+
 September 2nd 2025:
 
 With the current state of my website yeah i know the code is absolute dog water lol. 
